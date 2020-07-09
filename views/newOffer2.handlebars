@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>bootstrap | test</title>
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+	<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+	<script type="text/javascript" src="/js/jquery.mobile-1.4.5.js"></script>
+	<script type="text/javascript" src="/js/script.js"></script>
+</head>
+<body>
+	<nav class="user_nav">
+		<div class="nav_actions">
+			<i>محمد البشاري</i>
+			<i onclick="location.href='/gg'">
+				<img src="/icons/plus.png">
+			</i>
+			<i onclick="location.href='/gg'">
+				<img src="/icons/plus.png">
+			</i>
+			<i onclick="location.href='/gg'">
+				<img src="/icons/plus.png">
+			</i>
+		</div>
+	</nav>
+	<center>
+		<div class="container">
+			<div class="row main_box">
+				<div class="col-md-7 col-sm-14 img_side">
+					<img src="/icons/img2.svg">
+				</div>
+				<div class="col-md-5 col-sm-14 actions_side">
+					<div class="login_header new_offer_label">
+						<h3>Welcome boy</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore.</p>
+					</div>
+					<div class="login_form_container text-right new_offer_container">
+						<form>
+
+							<div id="o_step_one">
+
+								<div class="login_field_container row">
+									<div class="col-2">
+										<img src="/icons/users.svg">
+									</div>
+									<div class="col-10">
+										<input placeholder="عنوان الحملة" type="text" name="">
+									</div>
+								</div>
+								
+								<div class="login_field_container taw row">
+									<div class="col-2">
+										<img src="/icons/users.svg">
+									</div>
+									<div class="col-10 taw">
+										<textarea placeholder="اكتب تفاصيل الحملة والهدف منها بشكل مفصل" name=""></textarea>
+									</div>
+								</div>
+								<div class="row login_buttons text-center button_radious">
+									<div class="col-6">
+
+									</div>
+									<div class="col-6">
+										<button type="button" id="o_to_step_two" class="button btun btn-bill">التالي</button>
+									</div>
+								</div>
+							</div>
+
+							<div id="o_step_two">
+								<div class="login_field_container row">
+									<div class="col-md-2 col-2">
+										<img src="/icons/users.svg">
+									</div>
+									<div class="col-10 row">
+										<div class="col-5">
+											البداية
+										</div>
+										<div class="col-7">
+											<input type="date" name="">
+										</div>
+									</div>
+								</div>
+								<div class="login_field_container row">
+									<div class="col-2">
+										<img src="/icons/users.svg">
+									</div>
+									<div class="col-10 row">
+										<div class="col-5">
+											النهاية
+										</div>
+										<div class="col-7 text-right">
+											<input type="date" name="">
+										</div>
+									</div>
+								</div>
+								
+								<div class="login_field_container row">
+									<div class="col-2">
+										<img src="/icons/users.svg">
+									</div>
+									<div class="col-10 row">
+										<div class="col-5 text-right">
+											سقف المبلغ
+										</div>
+										<div class="col-7">
+											<input type="number" placeholder="المبلغ" name="">
+										</div>
+									</div>
+								</div>
+								<div class="row login_buttons text-center button_radious">
+									<div class="col-6">
+										<button type="button"  id="o_back_to_step_one" class="button btun btn-bill btun_secondary">السابق</button>
+									</div>
+									<div class="col-6">
+										<button type="button" id="o_to_step_three" class="button btun btn-bill">التالي</button>
+									</div>
+								</div>
+							</div>
+
+							<div id="o_step_three">
+								
+								<div class="login_field_container row">
+									<div class="col-2">
+										<img src="/icons/users.svg">
+									</div>
+									<div class="col-10 row">
+										<div class="col-4 text-right">
+											مستندات
+										</div>
+										<div class="col-8">
+											<input type="file" placeholder="المبلغ" name="">
+										</div>
+									</div>
+								</div>
+								
+								<div class="login_field_container row">
+									<div class="col-2">
+										<img src="/icons/users.svg">
+									</div>
+									<div class="col-10 row">
+										<div class="col-9 col-md-6 text-right">
+											للمؤثرين المستغلين 
+										</div>
+										<div class="col-3 col-md-4">
+											<input type="checkbox" name="">
+										</div>
+									</div>
+								</div>
+								
+								<div class="login_field_container row">
+									<div class="col-2">
+										<img src="/icons/users.svg">
+									</div>
+									<div class="col-10 row">
+										<div class="col-9 col-md-6 text-right">
+											الصفحات الجماهيرية
+										</div>
+										<div class="col-3 col-md-4">
+											<input type="checkbox" name="">
+										</div>
+									</div>
+								</div>
+								<div class="row login_buttons text-center button_radious">
+									<div class="col-6">
+										<button type="button" id="o_back_to_step_two" class="button btun btn-bill btun_secondary">السابق</button>
+									</div>
+									<div class="col-6">
+										<button type="submit" class="button btun btn-bill">التالي</button>
+									</div>
+								</div>
+							</div>
+
+						</form>
+					</div>
+					<div class="err">
+						<p>There is something worng</p>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="cards_box">
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<div class="card-block">
+								<img src="/imgs/3.jpeg" class="img-fluid">
+								<div class="card-title">
+									<h2>title 1</h2>
+								</div>
+								<div class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut.
+								</div>
+								<button class="btun btn-bill">click me</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<div class="card-block">
+								<img src="/imgs/2.jpeg" class="img-fluid">
+								<div class="card-title">
+									<h2>title 1</h2>
+								</div>
+								<div class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut.
+								</div>
+								<button class="btun btn-bill">click me</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<div class="card-block">
+								<img src="/imgs/1.jpeg" class="img-fluid">
+								<div class="card-title">
+									<h2>title 1</h2>
+								</div>
+								<div class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut.
+								</div>
+								<button class="btun btn-bill">click me</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</center>
+</body>
+</html>
