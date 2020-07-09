@@ -1,0 +1,615 @@
+body{
+	background-color: whitesmoke;
+	/*background-color: #38d39f;*/
+	cursor: default;
+    font-family: 'El Messiri', sans-serif;
+}
+
+i{
+	font-style: normal;
+}
+/*button{
+    font-family: 'El Messiri', sans-serif;
+}
+input{
+    font-family: 'El Messiri', sans-serif;
+}
+textarea{
+    font-family: 'El Messiri', sans-serif;
+}*/
+nav{
+	/*border-bottom: solid gray 1px;*/
+	padding: 8px;
+	margin-bottom: 50px;
+}
+.user_nav{
+	background-color: white;
+	padding-bottom: 2px;
+	box-shadow: 0px 5px 10px -8px;
+}
+
+footer{
+	background-color: #2c2b3c;
+	color: #38d39f/*#E63462*/;
+	padding: 20px;
+}
+.footer_head{
+	border: none;
+	border-bottom: solid gray 1px;
+}
+.footer_head div{
+	padding: 20px;
+	margin-bottom: 15px;
+	border-right: solid gray 1px;
+}
+.footer_head div h3{
+	margin: 5px;
+}
+.footer_footer{
+	text-align: center;
+	padding: 15px;
+}
+.col-sm-14 p{
+	margin: 3px;
+}
+.col-sm-14 a{
+	margin: 3px;
+	text-decoration: none;
+	color: #38d39f;
+}
+/*.main_box{
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 14px -8px;
+	margin: 0px;
+}
+
+*/
+
+.card-title{
+	padding: 5px;
+}
+.card-text{
+	padding: 5px;
+}
+.card .btn-bill{
+	margin-bottom: 10px;
+	color: #38d39f;
+}
+.card h2{
+	margin: 0px;
+}
+.card{
+	color: dimgray;
+	box-shadow: 0px 10px 14px -8px;
+	border-radius: 10px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	border: none;
+}
+
+.card img{
+	border-radius: 10px 10px 0px 0px;
+}
+.card-block{
+	color: black;
+}
+.btun{
+	/*border: solid gray 1px;*/
+	border-radius: 10px;
+	padding: 5px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	padding-right: 15px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+.btn-bill{
+	/*color: white;*/
+	border: solid #38d39f 2px;
+	color: #38d39f;
+	background-color: white;
+}
+.btn-bill:hover{
+	background-color: #38d39f;
+	border: solid lightblue 2px;
+	color: white;
+	/*box-shadow: 0px 3px 14px -2px;*/
+	text-decoration-color: white;
+}
+.btn-bill:active{
+	border: solid white 2px;
+	background-color: #16a675;
+	color: white;
+}
+.btn-bill:focus{
+	outline: none !important;/*
+	-webkit-box-shadow: none !important;
+	box-shadow: : none !important;*/
+}
+.btun_secondary{
+	border: solid #38d39f 2px;
+	color: white;
+	background-color: #38d39f;	
+}
+.img_side img{
+	width: 100%;
+}
+.row{
+	margin-bottom: 40px;
+}
+
+.actions_side{
+	/*background-color: gray;*/
+	/*border: solid gray 1px;*/
+	width: 100%;
+}
+.login_form_container{
+	width: 100%;
+	/*background-color: lightgray;*/
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 10px 14px -8px;
+	padding: 10px;
+}
+
+.login_field_container{
+	/*background-color: white;*/
+	padding: 20px;
+	border-bottom: solid lightgray 1px;
+}
+
+.login_form_container img{
+	width: 30px;
+}
+.login_form_container input{
+	width: 100%;
+	background-color: #00000000;
+	border: none;
+}
+.login_form_container input:focus{
+	border: rgba(0, 0, 0, 0);
+}
+.login_form_container .row{
+	margin: 0px;
+}
+.login_header{
+	text-align: left;
+	margin-bottom: 20px;
+}
+.login_header p{
+	font-size: 13px;
+}
+.login_header h3{
+	font-size: 35px;
+	margin-top: 20px;
+}
+.odd_field{
+	/*background-color: #ececec;*/
+	background-color: white;
+}
+.button_radious{
+	border-radius: 0px 0px 10px 10px;
+}
+.err{
+	padding: 10px;
+	border: solid #ff00006e 2px;
+	background-color: #ff00001a;
+	color: #ff000080;
+	font-weight: bold;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 8px;
+	border-radius: 8px;
+	display: none;
+}
+
+.button{
+	margin: 5px;
+	width: 120px;
+}
+.login_buttons{
+	padding: 10px;
+	background-color: white;
+	text-align: 
+}
+
+
+/* ///////////////////////////////////////////////////////////////////// */
+/* Regisering page */
+.sdw{
+	box-shadow: 0px 5px 10px -8px;
+}
+.register_form_container{
+	width: 50%;
+	min-width: 300px;
+	background-color: white;
+	padding: 10px;
+	padding-bottom: 0px;
+	margin: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 14px -8px;
+	margin-bottom: 50px;
+}
+.register_form_container h2{
+	padding: 10px;
+}
+.registering_field_container{
+	padding: 10px;
+}
+.register_form_container form{
+	border-top: solid lightgray 1px;
+}
+.registering_field_container input{
+	width: 50%;
+	padding: 5px;
+	text-align: right;
+	border: none;
+	/*background-color: whitesmoke;*/
+	border-radius: 7px;
+	border: solid lightgray 1px;
+}
+.steps_controler{
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.step_two{
+	display: none;
+}
+.step_three{
+	display: none;
+}
+.steps_counter{
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.steps_counter i{
+	color: #38d39f;
+	background-color: white;
+	padding: 5px;
+	padding-right: 11px;
+	padding-left: 11px;
+	border-radius: 50%;
+	border: solid #38d39f 2px;
+}
+
+.step_active i{
+	color: white;
+	background-color: #38d39f;
+}
+
+
+/* Registering page end */
+/* ///////////////////////////////////////////////////////////////////// */
+
+
+/* profile page */
+/* ///////////////////////////////////////////////////////////////////// */
+.nav_actions{
+	/*background-color: red;*/
+	height: 50px;
+	text-align: right;
+}
+.nav_actions i{
+	width: 5px;
+	height: 40px;
+	margin: 5px;
+	/*background-color: red;*/
+	cursor: pointer;
+
+}
+.nav_actions i img{
+	width: 40px;
+}
+.social_media_bar_container{
+	width: 90%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 8px;
+}
+.social_media_bar{
+	border-left: solid lightgray 1px;
+	padding: 5px;
+}
+@media(max-width: 766px){
+	.social_media_bar{
+		border: none;
+		border-top: solid lightgray 1px;	}
+}
+.social_media_bar img{
+	width: 40px;
+}
+.social_media_bar i{
+	font-style: normal;
+}
+.social_media_followers{
+}
+.social_media_text{
+	padding: 10px;
+	
+}
+.social_media_img{}
+.off_card_container{
+	padding: 4%;
+}
+.off_card{
+	background-color: white;
+	padding: 10px;
+	border-radius: 8px;
+	/*box-shadow: 0px 5px 14px -8px;*/
+	width: 95%;
+}
+.off_card img{
+	width: 60px;
+}
+.off_card_header{
+	margin: 10px;
+	border-bottom: solid lightgray 1px;
+	padding-bottom: 20px;
+}
+.label{
+	border-top: solid lightgray 1px;
+}
+.label h3{
+	margin: 0px;
+	padding: 10px;
+}
+.off_card_owner{
+	text-align: right;
+	/*padding-top: 15px;*/
+}
+.off_card_owner h3{
+	padding: 0px;
+	margin: 0px;
+	padding-top: 15px;
+	font-size: 20px;
+}
+.off_card_about{
+	text-align: right;
+	padding: 10px;
+	padding-bottom: 20px;
+	border-bottom: solid lightgray 1px;
+}
+.off_card_btn{
+	padding: 15px;
+	padding-bottom: 10px;
+
+}
+/* ///////////////////////////////////////////////////////////////////// */
+/* profile page end */
+
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+/* offer page */
+/*.new_offer_container{
+	background-color: white;
+	border-radius: 8px;
+	width: 60%;
+	padding: 0px;
+	padding-bottom: 10px;
+
+}
+.new_offer_area{
+	width: 100%;
+	padding: 30px;
+}
+.new_offer_header{
+	width: 100%;
+	background-color: #38d39f;
+	padding: 15px;
+	color: white;
+	margin-bottom: 5px;
+	border-radius: 8px 8px 0px 0px;
+}
+.new_offer_body{
+	width: 100%;
+}
+.new_offer_filed_container{
+	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	width: 100%;
+	border-bottom: solid lightgray 1px;
+	text-align: right;
+	margin-bottom: 5px;
+}
+.new_offer_filed_container input{
+	width: 100%;
+	text-align: right;
+	border: none;
+}
+.new_offer_filed_container textarea{
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 100px;
+	max-height: 100px;
+	text-align: right;
+	border: none;
+}
+.new_offer_filed_container button{
+	mar
+}
+.btn_container{
+	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	width: 100%;
+	text-align: right;
+	margin-bottom: 5px;
+}
+*/
+.new_offer_label{
+	text-align: right;
+}
+#o_step_three{
+	display: none;
+}
+
+#o_step_two{
+	display: none;
+}
+
+.login_field_container textarea{
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 99px;
+	max-height: 99px;
+	text-align: right;
+	border: none;
+}
+.taw{
+	width: 100%;
+}
+.new_offer_container{
+	padding-bottom: 0px;
+	direction: rtl;
+}
+
+
+/* end offer page */
+/* ///////////////////////////////////////////////////////////////////// */
+
+
+/* ///////////////////////////////////////////////////////////////////// */
+/* offerComments page */
+.offer_comments_container{
+	width: 100%;
+}
+.off_card_about p{
+	margin: 4px;
+}
+.comments_container{
+	margin-top: 5px;
+	padding: 20px;
+}
+.comment_body{
+	margin-bottom: 0px;
+}
+.comment{
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+.comment_body img{
+	width: 70px;
+}
+.comment_body .col-3{
+	border-left: solid lightgray 1px;
+}
+
+.comment_control img{
+	width: 40px;
+	margin: 5px;
+}
+.new_comment{
+	padding: 10px;
+	border-top: solid lightgray 1px;
+}
+.new_comment textarea{
+	border: none;
+	text-align: right;
+	min-width: 90%;
+	max-width: 90%;
+	min-height: 110px;
+	max-height: 110px;
+}
+.new_comment button{
+	margin-bottom: 0px;
+}
+
+
+
+/* offerComments page */
+/* ///////////////////////////////////////////////////////////////////// */
+
+.danger_btn{
+	border-color: #ff4c4c;
+	color: #ff4c4c;
+}
+.danger_btn:hover{
+	color: white;
+	background-color: #ff4c4c;
+	border-color: #f98a8a;
+}
+.danger_btn:active{
+	color: white;
+	background-color: #ff2727;
+	border-color: white;
+}
+@media(max-width: 690px) and (min-width: 10px){
+	.login_form_container input{
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0);
+		border: none;
+	}
+	.login_form_container button{
+		width: 100%;
+	}
+	.login_header{
+		text-align: center;
+	}
+	.login_form_container input:focus{
+		border: none;
+	}
+	.footer_head{
+		text-align: center;
+	}
+	.footer_head div{
+		border: none;
+		padding: 0px;
+		margin-bottom: 0px;
+		border-bottom: solid lightblue 1px;
+	}
+	.register_form_container{
+		padding: 5px;
+		padding-bottom: 0px;
+	}
+	.registering_field_container input{
+		width: 250px;
+	}
+	.main_box{
+		padding: 0px;
+		padding-bottom: 15px;
+	}
+	.nav_actions{
+		text-align: center;
+	}
+	.off_card_owner h3{
+		font-size: 17px;
+	}
+	.new_offer_container{
+		width: 80%;
+	}
+	.new_offer_filed_container input[type='date']{
+		width: 130%;
+		/*background-color: white;*/
+	}
+	.login_field_container textarea{
+		width: 100%;
+	}
+	.login_field_container input{}
+	.steps_counter i{
+		padding: 1px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.border_top{
+		border-top: solid lightgray 1px;
+		padding: 20px;
+		padding-bottom: 0px;
+		margin-top: 15px;
+	}
+	.new_comment textarea{
+		border: none;
+		text-align: right;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 110px;
+		max-height: 110px;
+	}
+}
+
