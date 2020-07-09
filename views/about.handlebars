@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<!-- <script type="text/javascript" src="/js/jquery-1.10.2.js"></script> -->
+	<script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+
+	<script type="text/javascript" src="/js/jquery.mobile-1.4.5.js"></script>
+
+	<!-- <script type="text/javascript" src="/js/script.js"></script> -->
+	</script>
+	<style type="text/css">
+		h1{
+			/*background-color: aqua;*/
+			margin: 10px;
+		}
+		img{
+			width: 90%;
+		}
+		.d{
+			background-color: white;
+			border-radius: 8px;
+			border: solid lightgray 1px;
+			margin: 10px;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			// alert('s1');
+			$('#showUsers').click(function () {
+				$.getJSON('/datas',function (data) {
+					// document.querySelector('#users').textContent = data;
+					// alert('ddd');
+					// $.each(data, function(i, dt){
+					// 	$('.container').append(`<div>
+					// 								<h1>${dt.name}</h1>
+					// 								<p>${dt.about}</p>
+					// 								<i>${dt.likes}</i>
+					// 							</div>`);
+					// });
+					for(var i = 0; i < data.length; i++){
+							$('.container').append('<div class="d sdw"><h1>' + data[i].name + '</h1><img src="/imgs/' + (data[i].likes%2+1) + '.jpeg"><h3>' + data[i].about +'</h3></div>');
+					}
+				});
+			});
+
+
+
+		});
+	</script>
+	
+</head>
+<body>
+	<form action="/data" method="post">
+		<input type="text" name="name">
+		<button type="submit">send</button>
+	</form>
+	
+	<center>
+		<h1 id="users"></h1>
+		<div class="container">
+		</div>
+		<button id="showUsers" onclick="show()">show users</button>
+	</center>
+</body>
+</html>
