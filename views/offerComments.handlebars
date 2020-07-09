@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>bootstrap | test</title>
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+	<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+	<script type="text/javascript" src="/js/jquery.mobile-1.4.5.js"></script>
+	<script type="text/javascript" src="/js/script.js"></script>
+</head>
+<body>
+	<nav class="user_nav">
+		<div class="nav_actions">
+			<i>محمد البشاري</i>
+			<i onclick="location.href='/gg'">
+				<img src="/icons/plus.png">
+			</i>
+			<i onclick="location.href='/gg'">
+				<img src="/icons/plus.png">
+			</i>
+			<i onclick="location.href='/gg'">
+				<img src="/icons/plus.png">
+			</i>
+		</div>
+	</nav>
+	<center>
+		<div class="row offer_comments_container">
+			<div class="col-12 col-md-6">
+
+				<div class="off_card_container col-12">
+					<div class="off_card sdw">
+						<div class="off_card_header row">
+							<div class="col-8 off_card_owner" style="background-color: ;">
+								<h3>محمد فتحي</h3>
+							</div>
+							<div class="col-4" style="background-color: ;">
+								<img src="/icons/avatar.svg">
+							</div>
+						</div>
+						<div class="off_card_about">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat...</p>
+							<p>date</p>
+							<p>price</p>
+						</div>
+						<div class="off_card_btn">
+							<!-- <button class="button btun btn-bill">المزيد</button> -->
+							date of the post
+						</div>
+						<div class="off_card_btn" style="display: none;">
+							<button class="button btun btn-bill">المزيد</button>
+							<button class="button btun btn-bill">المزيد</button>
+						</div>
+						<div class="new_comment">
+							<form>
+								<div>
+									<textarea placeholder="اكتب تعليقك هنا بالتفاصيل"></textarea>
+								</div>
+								<div>
+									<button class="button btun btn-bill">ارسل</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-12 col-md-6">
+				<div class="comments_container" style="width: 100%;">
+					<div class="comment sdw">
+						<div class="row comment_body">
+
+							<div class="col-md-9 col-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis.</div>
+							<div class="col-md-3 col-12 border_top">
+								<img src="/icons/avatar.svg">
+								<div>
+									<p>username</p>
+								</div>
+								<!-- if the the current user is the offer owner -->
+								<div class="row text-center comment_control">
+									<div class="col-6">
+										<a href="#">
+											<img src="/icons/edit.svg">
+										</a>
+									</div>
+									<div class="col-6">
+										<a href="#">
+											<img src="/icons/delete.svg">
+										</a>
+									</div>
+								</div>
+								<!-- if the curent user is the comment owner -->
+								<div class="text-center comment_control" style="display: none; padding-bottom: 5px;">
+									<div>
+										<a href="#">
+											<img src="/icons/like.svg">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="comment sdw">
+						<div class="row comment_body">
+
+							<div class="col-md-9 col-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis.</div>
+							<div class="col-md-3 col-12 border_top">
+								<img src="/icons/avatar.svg">
+								<div>
+									<p>username</p>
+								</div>
+								<!-- if the the current user is the offer owner -->
+								<div class="row text-center comment_control">
+									<div class="col-6">
+										<a href="#">
+											<img src="/icons/edit.svg">
+										</a>
+									</div>
+									<div class="col-6">
+										<a href="#">
+											<img src="/icons/delete.svg">
+										</a>
+									</div>
+								</div>
+								<!-- if the curent user is the comment owner -->
+								<div class="text-center comment_control" style="display: none; padding-bottom: 5px;">
+									<div>
+										<a href="#">
+											<img src="/icons/like.svg">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<!-- <div class="cards_box">
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<div class="card-block">
+								<img src="/imgs/3.jpeg" class="img-fluid">
+								<div class="card-title">
+									<h2>title 1</h2>
+								</div>
+								<div class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut.
+								</div>
+								<button class="btun btn-bill">click me</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<div class="card-block">
+								<img src="/imgs/2.jpeg" class="img-fluid">
+								<div class="card-title">
+									<h2>title 1</h2>
+								</div>
+								<div class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut.
+								</div>
+								<button class="btun btn-bill">click me</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<div class="card-block">
+								<img src="/imgs/1.jpeg" class="img-fluid">
+								<div class="card-title">
+									<h2>title 1</h2>
+								</div>
+								<div class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut.
+								</div>
+								<button class="btun btn-bill">click me</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+	</center>
+</body>
+</html>
